@@ -53,5 +53,15 @@ ansible-playbook playbook.yml
 This runs the playbook. Executing all the commands that we have it. Here are a few installing Nginx Creating an index.html using the tempalte module, and reloading and enabling the service.
 
 
+## Here is the screenshot of the rendered html page
+
 <img width="619" height="384" alt="image" src="https://github.com/user-attachments/assets/7b4d9ddd-3671-4cbe-8f49-70b9bf1a6a22" />
+
+After you can use the "delete_lab_key" script 
+to delete the ec2s and dns that we created.
+
+The end.
+
+
+
 
