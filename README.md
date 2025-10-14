@@ -57,11 +57,13 @@ This runs the playbook. Executing all the commands that we have it. Here are a f
 
 <img width="619" height="384" alt="image" src="https://github.com/user-attachments/assets/7b4d9ddd-3671-4cbe-8f49-70b9bf1a6a22" />
 
-After you can use the "delete_lab_key" script 
-to delete the ec2s and dns that we created.
+After you can use the "delete_lab_key" script to delete the key we made at the beginning and use ```terraform destroy``` to destroy the aws infrastructure we created.
 
 The end.
 
+Alfred Chan
+Kesh Thalagala
+Leeanne Li
 
 
 
