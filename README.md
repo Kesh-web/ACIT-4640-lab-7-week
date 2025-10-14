@@ -36,3 +36,22 @@ Once we cd into the terraform directory. We do ```init``` to initlaize the worki
 
 ## Post terraform
 After applying it outputs the dns and public ips which we use to complete the hosts.yml file in the inventory directory.
+
+
+## Ansible
+
+
+After editing our yml file we ran this command to do a syntax check on the yml. Used to identify any errors before executing the file.
+```
+ansible-playbook playbook.yml --syntax-check
+```
+
+After checking the syntax we use 
+```
+ansible-playbook playbook.yml
+```
+This runs the playbook. Executing all the commands that we have it. Here are a few installing Nginx Creating an index.html using the tempalte module, and reloading and enabling the service.
+
+
+<img width="619" height="384" alt="image" src="https://github.com/user-attachments/assets/7b4d9ddd-3671-4cbe-8f49-70b9bf1a6a22" />
+
